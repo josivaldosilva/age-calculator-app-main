@@ -37,11 +37,17 @@ Users should be able to:
 
 ### Screenshot
 
-Note: All the screenshots are in images folder
-
+[Desktop-completed] (.assets/images/screenshots/desktop-completed.jpg)
+[Desktop-design] (.assets/images/screenshots/desktop-design.png)
+[Desktop-error-empty] (.assets/images/screenshots/desktop-error-empty.png)
+[Desktop-error-invalid] (.assets/images/screenshots/desktop-error-invalid.png)
+[Desktop-error-whole-form] (.assets/images/screenshots/desktop-error-whole-form.png)
+[mobile-active-state] (.assets/images/screenshots/mobile-active-states.png)
+[mobile-design] (.assets/images/screenshots/mobile-design.png)
+[mobile-error-whole-form] (.assets/images/screenshots/mobile-error-whole-form.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/josivaldosilva/age-calculator-app-main)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process

@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Screenshot
 
-
+Note: All the screenshots are in images folder
 
 ### Links
 
@@ -56,7 +56,7 @@ Users should be able to:
 
 ### What I learned
 
-while a i was through this project i´ve learn more things about javascript such as DOM validatio native methods and properties, i´ve learned more about CSS GRID too. it was amazing
+while i was through this project i´ve learn more things about javascript such as DOM validatio native methods and properties, i´ve learned more about CSS GRID too. it was amazing
 
 ## Author
 

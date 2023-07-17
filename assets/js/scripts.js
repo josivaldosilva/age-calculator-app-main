@@ -42,6 +42,7 @@ arrowIcon.addEventListener('click', e => {
         if(day >0 && day < 10){
             day = `0${day}`
         }
+       
         if((Number(InputDay.value) > 28) && (Number(InputMonth.value) === 2) || (Number(InputDay.value) > 30) && (Number(InputMonth.value) === 4) || (Number(InputDay.value) > 30) && (Number(InputMonth.value) === 6) || (Number(InputDay.value) > 30) && (Number(InputMonth.value) === 9) || (Number(InputDay.value) > 30) && (Number(InputMonth.value) === 11)){
 
             dayErrorMsgField.innerHTML = 'Must be a valid date'

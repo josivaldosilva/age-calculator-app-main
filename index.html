@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { 
+      font-size: 11px; 
+      text-align: center; 
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<form class="container">
+  <header class="datas">
+    <div class="input-container">
+      <label class="l-day">Day</label>
+      <input type="number" name="day" id="dayNum" required placeholder="dd" min="1" max="31" required>
+      <span class="l-error-msg" id="dayErrorMsg"></span>
+    </div>
+    
+    <div class="input-container">
+      <label class="l-month">Month</label>
+      <input type="number" name="month" id="monthNum" required placeholder="mm" min="1" max="12" required>
+      <span class="l-error-msg" id="monthErrorMsg"></span>
+    </div>
+
+    <div class="input-container">
+      <label class="l-year">Year</label>
+      <input type="number" name="year" id="yearNum" required placeholder="yyyy" min="1900" max="" required>
+      <span class="l-error-msg" id="yearErrorMsg"></span>
+    </div>
+  </header>
+
+  <main>
+    <section class="imgArrow">
+      <span></span>
+      <button type="submit"><img src="assets/images/icon-arrow.svg" alt="icon-arrow" class="icon-arrow"></button>
+      <span></span>
+    </section>
+    <p><span class="yearsNum">--</span> years</p>
+    <p><span class="monthsNum">--</span> months</p>
+    <p><span class="daysNum">--</span> days</p>
+  </main>
+
+</form>
+
+  <footer>
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://gitbuh.com/josivaldosilva" target="_blank">Josivaldo Silva</a>.
+  </div>
+  </footer>
+  
+
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
